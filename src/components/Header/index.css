@@ -1,0 +1,85 @@
+.logo {
+  width: 120px;
+}
+nav {
+  padding: 20px;
+}
+.logo-container {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots-container {
+  width: 40px;
+}
+.lg-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.lg-nav-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.lg-nav-ul li {
+  color: #2b2730;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.lg-nav-ul p {
+  color: #2b2730;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sign-in-btn {
+  border-radius: 40px;
+  background: #2b2730;
+  border-width: 0px;
+  padding: 20px 40px 20px 40px;
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  nav {
+    padding: 20px 70px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .logo-container {
+    display: none;
+  }
+  .lg-nav li {
+    cursor: pointer;
+  }
+  .lg-nav {
+    display: flex;
+  }
+  .lg-nav button {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  .lg-nav button:hover {
+    background-color: transparent;
+    color: #2b2730;
+  }
+}
+@media screen and (min-width: 900px) {
+  nav {
+    padding: 20px 100px;
+  }
+}
